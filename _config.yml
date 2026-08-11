@@ -3,7 +3,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Dr. Imane Jeddoub"
+title                    : "Imane Jeddoub"
 title_separator          : "-"
 name                     : &name "Dr. Imane Jeddoub"
 description              : &description "Academic portfolio of Dr. Imane Jeddoub, Postdoctoral Researcher in Geoinformation, 3D City Modelling, and Urban Digital Twins"
