@@ -24,8 +24,6 @@ The responses will contribute to a better understanding of:
 - [Data integration levels across urban digital twin lifecycle](https://forms.cloud.microsoft/e/05hbtys45R)
 - [An exploratory survey for Digital Twin (DT) concepts and initiatives for cities.](https://forms.cloud.microsoft/e/Yir5EacgUW)
 
-Participation is voluntary. Please consult the information provided at the beginning of each form regarding the purpose of the study and the processing of responses.
-
 ## Contact
 
 For questions about this research or potential collaboration, please contact [Imane Jeddoub](mailto:I.Jeddoub@uliege.be).
