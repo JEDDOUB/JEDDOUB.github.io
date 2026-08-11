@@ -1,4 +1,4 @@
-Of course—we will not mention the internship at the Helmholtz Institute. Use this version of `_pages/about.md`:
+
 
 ```markdown
 ---
