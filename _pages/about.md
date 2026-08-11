@@ -1,3 +1,6 @@
+Of course—we will not mention the internship at the Helmholtz Institute. Use this version of `_pages/about.md`:
+
+```markdown
 ---
 permalink: /
 title: "About me"
@@ -22,8 +25,6 @@ I obtained my **PhD in Sciences in Geography and Geoinformation** from the Unive
 My PhD was funded by the **Fonds de la Recherche Scientifique – FNRS (F.R.S.-FNRS)** as part of the PDR SIG3.0 research project and was conducted under the supervision of **Prof. Roland Billen**.
 
 Since May 2026, I have continued my work at GeoScITY as a researcher, leading the technical development of the **City2Twin platform** and contributing to research and applied projects related to Urban Digital Twins, 3D city modelling, geoinformation, and human-centric urban applications.
-
-Before joining the University of Liège, I completed a research internship at the **Helmholtz Institute Freiberg for Resource Technology (HIF-HZDR)** in Germany. My work focused on developing immersive virtual reality applications for visualising hyperspectral point clouds and digital outcrops in mining environments.
 
 ## Research interests
 
@@ -55,3 +56,4 @@ I also serve as a reviewer for international scientific journals, including *Bui
 I welcome opportunities for research collaboration and scientific exchange in Urban Digital Twins, 3D city modelling, geospatial data integration, and related fields.
 
 You can contact me at [I.Jeddoub@uliege.be](mailto:I.Jeddoub@uliege.be) or connect with me through [LinkedIn](https://www.linkedin.com/in/imane-jeddoub/).
+```
