@@ -9,7 +9,7 @@ redirect_from:
 
 I am a **postdoctoral researcher** at the [Geospatial Data Science and City Information Modelling Laboratory (GeoScITY)](https://www.geoscity.uliege.be/), University of Liège, Belgium.
 
-Originally from Rabat, Morocco, I have an academic background in geomatics and land surveying. My career has taken me from engineering and 3D geoinformation to research on the design and implementation of Urban Digital Twins.
+Originally from Rabat, Morocco, I have a multidisciplinary background in geomatics. My academic journey has taken me from land surveying, photogrammetry, and remote sensing to research in 3D geoinformation and its applications in urban environments.
 
 My research focuses on **Urban Digital Twins, 3D city models, City Information Modelling, Building Information Modelling (BIM), multisource data integration, and geospatial interoperability**. I am particularly interested in the conceptual and technical challenges associated with integrating heterogeneous urban data throughout the Urban Digital Twin lifecycle.
 
