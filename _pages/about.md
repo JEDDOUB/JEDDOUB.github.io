@@ -1,6 +1,3 @@
-
-
-```markdown
 ---
 permalink: /
 title: "About me"
@@ -56,4 +53,3 @@ I also serve as a reviewer for international scientific journals, including *Bui
 I welcome opportunities for research collaboration and scientific exchange in Urban Digital Twins, 3D city modelling, geospatial data integration, and related fields.
 
 You can contact me at [I.Jeddoub@uliege.be](mailto:I.Jeddoub@uliege.be) or connect with me through [LinkedIn](https://www.linkedin.com/in/imane-jeddoub/).
-```
