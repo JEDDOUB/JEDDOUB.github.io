@@ -1,64 +1,65 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
-  - /resume
+  - /resume/
 ---
 
-{% include base_path %}
+## Current position
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**Postdoctoral Researcher**  
+GeoScITY, University of Liège, Belgium  
+2026–Present
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Education
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**PhD in Sciences – Geography and Geoinformation**  
+University of Liège, Belgium  
+2022–2026
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+**Engineer in Geomatics and Land Surveying**  
+Institut Agronomique et Vétérinaire Hassan II (IAV Hassan II), Rabat, Morocco  
+2016–2021
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Research interests
+
+- Urban Digital Twins
+- 3D geoinformation
+- City Information Modelling
+- Building Information Modelling
+- Multisource urban data integration
+- Geospatial interoperability and standardisation
+- Geographic Information Systems
+- 3D LiDAR point clouds
+
+## Scientific service
+
+- Reviewer for international scientific journals
+- Contribution to national and international research proposals
+- Scientific support and co-supervision of master’s research projects
+
+## Technical skills
+
+- **Programming:** Python, JavaScript, SQL, HTML, CSS
+- **Databases:** PostgreSQL, PostGIS, MongoDB
+- **Geospatial tools:** QGIS, ArcGIS, FME
+- **3D modelling:** Revit, AutoCAD, SketchUp
+- **Standards and formats:** CityGML, CityJSON, IFC, OGC web services
+
+## Soft skills
+
+- Teamwork and collaboration
+- Research project coordination
+- Scientific communication
+- Problem-solving
+- Adaptability
+- Creativity and curiosity
+- Organisation and time management
+
+## Languages
+
+- **Arabic:** Native
+- **French:** Fluent
+- **English:** Fluent
