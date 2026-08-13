@@ -1,54 +1,94 @@
 .page__footer {
   position: relative;
   margin-top: 3em;
-  padding: 3em 0;
+  padding: 0;
   color: #ffffff;
   background:
     linear-gradient(
-      rgba(5, 25, 48, 0.45),
-      rgba(5, 25, 48, 0.72)
+      90deg,
+      rgba(4, 18, 38, 0.62),
+      rgba(4, 18, 38, 0.88) 50%,
+      rgba(4, 18, 38, 0.55)
     ),
-    url("/images/liege-urban-digital-twin-footer.png");
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-top: none;
+    url("/images/liege-urban-digital-twin-footer.png")
+    center center / cover no-repeat;
+  border-top: 0;
 }
 
 .page__footer footer {
   position: relative;
-  z-index: 2;
+  max-width: 1280px;
+  min-height: 260px;
+  margin: 0 auto;
+  padding: 55px 30px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
-.page__footer a,
-.page__footer a:visited {
-  color: #81e6f3;
+.custom-footer {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
 }
 
-.page__footer a:hover {
+.custom-footer__identity strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1.35rem;
   color: #ffffff;
 }
 
-.page__footer-follow .social-icons strong,
-.page__footer-copyright {
+.custom-footer__identity span {
+  font-size: 0.95rem;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.custom-footer__links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin: 24px 0;
+}
+
+.custom-footer__links a,
+.custom-footer__links a:visited {
+  color: #79e4ef;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.custom-footer__links a:hover {
   color: #ffffff;
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+  text-decoration: none;
 }
 
-.page__footer-copyright {
-  opacity: 0.9;
+.custom-footer__links i {
+  margin-right: 5px;
 }
 
-.page__footer::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    90deg,
-    rgba(4, 18, 36, 0.25),
-    rgba(4, 18, 36, 0.72) 50%,
-    rgba(4, 18, 36, 0.28)
-  );
-  pointer-events: none;
+.custom-footer__copyright {
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+@media (max-width: 600px) {
+  .page__footer footer {
+    min-height: 230px;
+    padding: 40px 20px 30px;
+  }
+
+  .custom-footer__links {
+    gap: 14px;
+  }
+
+  .custom-footer__identity span {
+    font-size: 0.82rem;
+  }
 }
