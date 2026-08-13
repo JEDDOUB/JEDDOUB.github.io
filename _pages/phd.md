@@ -58,7 +58,7 @@ The framework was investigated across the Urban Digital Twin lifecycle, from cre
 
 ## Thesis and related resources
 
+- [Access the full PhD thesis on ORBi](https://orbi.uliege.be/handle/2268/343029)
 - [University of Liège defence announcement](https://www.sciences.uliege.be/cms/c_13672428/en/soutenance-de-these-d-imane-jeddoub)
-- [GeoScITY announcement: PhD Defence Success for Imane Jeddoub](https://www.geoscity.uliege.be/cms/c_13683386/en/phd-defense-success-for-imane-jeddoub-on-urban-digital-twins)
 - [View related publications](/publications/)
 - [Explore City2Twin and research resources](/portfolio/)
