@@ -27,7 +27,6 @@ The joint event brings together the **21st International 3D GeoInfo Conference**
 ## Urban Digital Twins in Practice: A Survey-Based Analysis of Data Integration Levels and Approaches
 
 **Conference:** 10th International Smart Data and Smart Cities Conference  
-**Publication:** Full paper in the ISPRS Annals
 
 This study examines how data integration levels are understood and applied by practitioners involved in Urban Digital Twin implementations.
 
@@ -38,7 +37,6 @@ The findings connect conceptual data integration levels with current practices a
 ## Semantic Surface Integration in CityJSON-Based Urban Digital Twins: A Rooftop Photovoltaic Potential Use Case
 
 **Conference:** 21st International 3D GeoInfo Conference  
-**Publication:** Full paper in the ISPRS Annals
 
 This work introduces a client-side workflow for integrating and visualising simulation results at the semantic surface level in CityJSON-based Urban Digital Twins.
 
