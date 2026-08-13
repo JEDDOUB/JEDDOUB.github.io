@@ -5,11 +5,7 @@
 /*
    Default
    ========================================================================== */
-/* Prevent the profile sidebar from overlapping the footer */
-.sidebar.sticky {
-  position: static !important;
-  top: auto !important;
-}
+
 .sidebar {
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
@@ -324,5 +320,22 @@
     &:hover {
       text-decoration: underline;
     }
+  }
+}
+
+/* ==========================================================================
+   CUSTOM SIDEBAR CORRECTION
+   Prevent the author profile from overlapping the footer
+   ========================================================================== */
+
+@media screen and (min-width: $sidebar-screen-min-width) {
+  .sidebar {
+    position: static !important;
+    top: auto !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    overflow-y: visible !important;
+    padding-top: 0 !important;
   }
 }
