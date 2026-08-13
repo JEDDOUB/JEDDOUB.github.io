@@ -1,25 +1,34 @@
-{% include base_path %}
+<div class="custom-footer">
 
-{% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-    {% endif %}
-    {% if site.author.github %}
-      <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
-    {% endif %}
-    {% if site.author.bitbucket %}
-      <li><a href="https://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
-    {% endif %}
-    {% if site.atom_feed.hide != true %}
-    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
-    {% endif %}
-  </ul>
-</div>
-{% endif %}
+  <div class="custom-footer__identity">
+    <strong>Dr. Imane Jeddoub</strong>
+    <span>Urban Digital Twins · 3D Geoinformation · GeoScITY</span>
+  </div>
 
-<div class="page__footer-copyright">
-  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
-  Site last updated {{ "now" | date: '%Y-%m-%d' }}, <a href="/sitemap/" style="text-transform: uppercase;">{{ site.data.ui-text[site.locale].site_map | default: "Sitemap" }}</a>
+  <div class="custom-footer__links">
+    <a href="mailto:I.Jeddoub@uliege.be">
+      <i class="fas fa-envelope" aria-hidden="true"></i>
+      Email
+    </a>
+
+    <a href="https://www.linkedin.com/in/imane-jeddoub/"
+       target="_blank"
+       rel="noopener noreferrer">
+      <i class="fab fa-linkedin" aria-hidden="true"></i>
+      LinkedIn
+    </a>
+
+    <a href="https://github.com/JEDDOUB"
+       target="_blank"
+       rel="noopener noreferrer">
+      <i class="fab fa-github" aria-hidden="true"></i>
+      GitHub
+    </a>
+  </div>
+
+  <div class="custom-footer__copyright">
+    &copy; {{ site.time | date: "%Y" }} Imane Jeddoub.
+    All rights reserved.
+  </div>
+
 </div>
